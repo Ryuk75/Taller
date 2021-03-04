@@ -50,3 +50,25 @@ a {
 	-webkit-user-select: none;
 	font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
+
+.footer{
+	background-color:cornflowerblue;
+	bottom: 0px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	color: black;
+}
+
+.footer-copyright{
+	background-color:beige;
+	bottom: 0px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	color: black;
+} 
+
+#contact{
+    color: black !important;
+}
