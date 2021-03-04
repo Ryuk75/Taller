@@ -16,26 +16,13 @@ ul.nav.navbar-nav {
 }
 
 a:hover {
-	color: #00a82d;
+	color: #a80000;
 }
 
 a {
 	color: black;
 	text-decoration: none;
 	font-weight: bold;
-}
-
-.btn-default {
-	color: #333;
-	background-color: #fff;
-}
-
-.log-btn {
-	margin-right: 50px;
-	margin-left: 20px;
-	width: 121px;
-	border: solid green 2px;
-	color: green;
 }
 
 #body-principal{
@@ -71,4 +58,70 @@ a {
 
 #contact{
     color: black !important;
+}
+    
+#imagen_1{
+    margin: 15px;
+    padding: 0;
+    height: 380px;
+    max-width: 100%;
+    position: relative;
+    border-radius: 50px;
+    text-align: center;
+}
+    
+#imagen_2{
+    margin: 15px;
+    padding: 0;
+    height: 380px;
+    max-width: 100%;
+    position: relative;
+    border-radius: 50px;
+    text-align: center;
+}
+    
+.contenedor-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+#panel_1{
+    width: 500px;
+    margin: 30px;
+    border-radius: 25px;
+    background-color: #E1C014;
+    border: none;
+}
+    
+#panel_2{
+    width: 500px;
+    margin: 30px;
+    border-radius: 25px;
+    background-color: #E1C014;
+    border: none;
+}
+    
+#panel_1 h1{
+    font-size: 20px;
+    text-align: center;
+}
+    
+#panel_1 p{
+    font-size: 12px;
+    text-align: left;
+}
+    
+#panel_2 h1{
+    font-size: 20px;
+    text-align: center;
+}
+    
+#panel_2 p{
+    font-size: 12px;
+    text-align: left;
+}
+    
+#p1{
+    text-align: justify;    
 }
